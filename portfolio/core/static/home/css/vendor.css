@@ -34,16 +34,25 @@
 	width: 100%;
 	-ms-touch-action: pan-y;
 }
+
+
+
 .owl-carousel .owl-wrapper {
 	display: none;
 	position: relative;
 	-webkit-transform: translate3d(0px, 0px, 0px);
 }
 .owl-carousel .owl-wrapper-outer {
+	
 	overflow: hidden;
 	position: relative;
 	width: 100%;
 }
+
+#projects-carousal.owl-carousel.owl-theme{
+	cursor: pointer
+}
+
 .owl-carousel .owl-wrapper-outer.autoHeight {
 	-webkit-transition: height 500ms ease-in-out;
 	-moz-transition: height 500ms ease-in-out;

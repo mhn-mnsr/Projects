@@ -174,7 +174,7 @@ p.lead {
 	}
 }
 em, i, strong, b {
-	font-size: 1.7rem;
+	font-size: 2.0rem;
 	line-height: 3rem;
 	font-style: normal;
 	font-weight: normal;
@@ -536,7 +536,7 @@ select {
 	padding: 1.5rem 0;
 	border: 0;
 	outline: none;
-	vertical-align: middle;
+	/* vertical-align: middle; */
 	color: #313131;
 	font-family: "poppins-regular", sans-serif;
 	font-size: 1.5rem;
@@ -559,7 +559,7 @@ select {
 	-moz-appearance: none;
 	-ms-appearance: none;
 	-o-appearance: none;
-	appearance: none;
+	/* appearance: none; */
 	text-indent: 0.01px;
 	text-overflow: '';
 	margin: 0;
@@ -2134,7 +2134,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #services {
-	background: #313131 url(../images/bg.jpg) no-repeat center;
+	background: #313131 url(../images/blackmarble.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-attachment: fixed;
