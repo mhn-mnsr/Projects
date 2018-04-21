@@ -2134,7 +2134,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #services {
-	background: #313131 url(../images/blackmarble.jpg) no-repeat center;
+	background: url(../images/blackmarble.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-attachment: fixed;
