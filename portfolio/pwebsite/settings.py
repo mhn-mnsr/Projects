@@ -120,10 +120,10 @@ AUTH_PASSWORD_VALIDATORS = [
 
 SERVER_EMAIL = '<your email address>'	#you need to enable login from low secure apps in case of GMAIL
 EMAIL_USE_TLS = True
-EMAIL_HOST = '<smtp for email provider>'
-EMAIL_HOST_USER = '<your email address>'
-EMAIL_HOST_PASSWORD = '<your password>'
-EMAIL_PORT = '<port number>'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'yourgmail.@gmail.com'
+EMAIL_HOST_PASSWORD = 'your password'
+EMAIL_PORT = '587'
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.11/topics/i18n/

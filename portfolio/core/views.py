@@ -56,7 +56,7 @@ def sendEmail(request):
 	return redirect('emailSent') #render(request, "home/thankyou.html", context)
 
 def emailSent(request):
-	social = Social.objects.all()
+	social = social.objects.all()
 	context= {
 		'social' : social,
 	}
